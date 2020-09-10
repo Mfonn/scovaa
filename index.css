@@ -1,5 +1,5 @@
 body {
-    background-color: #fffff;
+    background-color: #ffffff;
 }
 
 .sidebar {
@@ -109,15 +109,18 @@ body {
       margin-left: 100px;
   }
 
+  /* for the about us paragraph */
   .about_paragraph {
       margin-top: 40px;
       font-size: 12px;
       margin-left: 130px;
   }
+
+
 /* for the footer wavy*/
 
 section {
-    position: relative; width: 100%; height: 30vh; background: #ffffff;
+    position: relative; width: 100%; height: 30vh; background: #c7cfdb;
     overflow: hidden;
 }
 
