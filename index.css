@@ -84,6 +84,35 @@ body {
 }
 
 
+/* for the grids*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /* for the about us image*/
+  .aboutus {
+      margin-left: -100px;
+      margin-top: 250px;
+  }
+ 
+  /* for the about us header */
+  .about_header {
+      margin-top: 210px;
+      font-size: 60px;
+      margin-left: -400px;
+  }
+
+  .about_paragraph {
+      margin-top: 70px;
+      font-size: 20px;
+  }
 /* for the footer wavy*/
 
 section {
