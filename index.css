@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #001D29;
+    background-color: #0f4a92;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
@@ -19,13 +19,13 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #FFB05C;
+    color: #002655;
     display: block;
     transition: 0.3s;
 }
 
 .sidebar a:hover {
-    color: #FF890A;
+    color: #5387df;
 }
 
 .sidebar .closebtn {
@@ -40,10 +40,12 @@ body {
 .openbtn {
     font-size: 20px;
     cursor: pointer;
-    background-color: #FDD686;
-    color: black;
+    background-color: #0f4a92;
+    color: #5387df;
     padding: 10px 15px;
     border: none;
+    position: absolute;
+   
 }
 
 .openbtn:hover {
@@ -58,6 +60,7 @@ body {
   max-width: 1000px;
   position: relative;
   margin: auto;
+  z-index: -1;
 }
 
 /* Hide the images by default */
@@ -90,7 +93,6 @@ body {
     grid-template-columns: auto auto auto;
     padding: 10px;
   }
- 
 
   /* for the about us image*/
   .aboutus {
